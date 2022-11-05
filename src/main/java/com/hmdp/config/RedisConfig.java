@@ -25,4 +25,26 @@ public class RedisConfig {
         //创建客户端
         return Redisson.create(cofig);
     }
+
+    @Bean
+    public RedissonClient redissonClient2(){
+        //配置类
+        Config cofig = new Config();
+        //添加redis地址，这里添加了单点的地址，也可以使用
+        // config.useClusterServers()添加集群地址
+        cofig.useSingleServer().setAddress("redis://192.168.32.128:6380").setPassword("51314290");
+        //创建客户端
+        return Redisson.create(cofig);
+    }
+
+    @Bean
+    public RedissonClient redissonClient3(){
+        //配置类
+        Config cofig = new Config();
+        //添加redis地址，这里添加了单点的地址，也可以使用
+        // config.useClusterServers()添加集群地址
+        cofig.useSingleServer().setAddress("redis://192.168.32.128:6381").setPassword("51314290");
+        //创建客户端
+        return Redisson.create(cofig);
+    }
 }
