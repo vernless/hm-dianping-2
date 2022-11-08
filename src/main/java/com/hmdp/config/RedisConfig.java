@@ -26,7 +26,7 @@ public class RedisConfig {
         return Redisson.create(cofig);
     }
 
-    @Bean
+/*    @Bean
     public RedissonClient redissonClient2(){
         //配置类
         Config cofig = new Config();
@@ -46,5 +46,5 @@ public class RedisConfig {
         cofig.useSingleServer().setAddress("redis://192.168.32.128:6381").setPassword("51314290");
         //创建客户端
         return Redisson.create(cofig);
-    }
+    }*/
 }
