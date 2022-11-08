@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9109fe0f-cc9a-4fbc-a4d3-b58fee78c076" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/seckill.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IVoucherOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IVoucherOrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/IVoucherOrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/IVoucherOrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/seckill.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/seckill.lua" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherOrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.RedissonTest.method1" />
+      <item itemvalue="Spring Boot.HmDianPingApplication2" />
+      <item itemvalue="Spring Boot.HmDianPingApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RedissonTest.method1" />
@@ -121,10 +121,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Redisson可重入锁" />
     <MESSAGE value="Redisson可multiLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="Redisson可multiLock" />
+    <MESSAGE value="异步秒杀" />
+    <option name="LAST_COMMIT_MESSAGE" value="异步秒杀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
