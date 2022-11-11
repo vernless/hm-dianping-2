@@ -77,7 +77,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements IU
 
         //4.一致，根据手机号查询用户select * from tb_user where phone = ?
         User user = query().eq("phone", phone).one();
-
+        System.out.println(user);
         //5.判断用户是否存在
         if (user == null) {
             //6.不存在，创建新用户

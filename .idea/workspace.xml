@@ -6,9 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="9109fe0f-cc9a-4fbc-a4d3-b58fee78c076" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/VoucherOrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/seckill.lua" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/seckill.lua" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherOrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/VoucherOrderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IBlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IBlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/utils/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/utils/SystemConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hmdp/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hmdp/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/BlogServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/utils/SystemConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/utils/SystemConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/Test.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +65,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hmdp_v1/hm-dianping-master" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -90,6 +99,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.test.Test" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testShop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.test.Test" />
+      <option name="METHOD_NAME" value="testShop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.test.Test" />
+      <option name="METHOD_NAME" value="testUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test.testUserMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hm-dianping" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hmdp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hmdp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.hmdp.test.Test" />
+      <option name="METHOD_NAME" value="testUserMapper" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HmDianPingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hm-dianping" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hmdp.HmDianPingApplication" />
@@ -108,11 +181,19 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.RedissonTest.method1" />
+      <item itemvalue="JUnit.Test.testUser" />
+      <item itemvalue="JUnit.Test.testShop" />
+      <item itemvalue="JUnit.Test.testUserMapper" />
+      <item itemvalue="JUnit.Test.Test" />
       <item itemvalue="Spring Boot.HmDianPingApplication2" />
       <item itemvalue="Spring Boot.HmDianPingApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test.Test" />
+        <item itemvalue="JUnit.Test.testUserMapper" />
+        <item itemvalue="JUnit.Test.testShop" />
+        <item itemvalue="JUnit.Test.testUser" />
         <item itemvalue="JUnit.RedissonTest.method1" />
       </list>
     </recent_temporary>
@@ -136,7 +217,8 @@
     <MESSAGE value="Redisson可重入锁" />
     <MESSAGE value="Redisson可multiLock" />
     <MESSAGE value="异步秒杀" />
-    <option name="LAST_COMMIT_MESSAGE" value="异步秒杀" />
+    <MESSAGE value="基于Redis的Stream结构作为消息队列，实现异步秒杀" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于Redis的Stream结构作为消息队列，实现异步秒杀" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
