@@ -7,17 +7,18 @@
     <list default="true" id="9109fe0f-cc9a-4fbc-a4d3-b58fee78c076" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/FollowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/FollowController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IBlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IBlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IFollowService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IFollowService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/BlogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/utils/SystemConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/utils/SystemConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hmdp/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hmdp/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/FollowServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/BlogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UploadController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/FollowController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/FollowController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/IBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/IBlogService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/BlogServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/BlogServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/utils/SystemConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/utils/SystemConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/FollowServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/FollowServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -218,7 +227,8 @@
     <MESSAGE value="Redisson可multiLock" />
     <MESSAGE value="异步秒杀" />
     <MESSAGE value="基于Redis的Stream结构作为消息队列，实现异步秒杀" />
-    <option name="LAST_COMMIT_MESSAGE" value="基于Redis的Stream结构作为消息队列，实现异步秒杀" />
+    <MESSAGE value="发布查看探店笔记、点赞功能以及点赞排行榜" />
+    <option name="LAST_COMMIT_MESSAGE" value="发布查看探店笔记、点赞功能以及点赞排行榜" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
