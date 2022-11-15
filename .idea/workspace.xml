@@ -6,15 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="9109fe0f-cc9a-4fbc-a4d3-b58fee78c076" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/ShopController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/ShopController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IShopService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IShopService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/ShopServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hmdp/test/HmDianPingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hmdp/test/HmDianPingApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/ShopController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/ShopController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/IFollowService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/IFollowService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hmdp/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/IShopService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/IShopService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/IUserService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/ShopServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/ShopServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/HmDianPingApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hmdp/test/HmDianPingApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hmdp/service/impl/UserServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +224,8 @@
     <MESSAGE value="基于Redis的Stream结构作为消息队列，实现异步秒杀" />
     <MESSAGE value="发布查看探店笔记、点赞功能以及点赞排行榜" />
     <MESSAGE value="实现好友关注功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现好友关注功能" />
+    <MESSAGE value="实现附近商铺功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现附近商铺功能" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

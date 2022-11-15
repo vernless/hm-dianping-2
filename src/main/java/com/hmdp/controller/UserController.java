@@ -88,9 +88,7 @@ public class UserController {
         return Result.ok(info);
     }
 
-
 // UserController 根据id查询用户
-
     @GetMapping("/{id}")
     public Result queryUserById(@PathVariable("id") Long userId){
         // 查询详情
@@ -103,4 +101,13 @@ public class UserController {
         return Result.ok(userDTO);
     }
 
+    @PostMapping("/sign")
+    public Result sign(){
+        return userService.sign();
+    }
+
+    @GetMapping("/sign/count")
+    public Result signCount(){
+        return userService.signCount();
+    }
 }
